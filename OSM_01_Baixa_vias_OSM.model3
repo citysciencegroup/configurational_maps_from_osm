@@ -1,79 +1,6 @@
 <!DOCTYPE model>
 <Option type="Map">
   <Option name="children" type="Map">
-    <Option name="native:explodehstorefield_1" type="Map">
-      <Option name="active" type="bool" value="true"/>
-      <Option name="alg_config"/>
-      <Option name="alg_id" type="QString" value="native:explodehstorefield"/>
-      <Option name="color" type="QString" value=""/>
-      <Option name="comment" type="Map">
-        <Option name="color" type="QString" value=""/>
-        <Option name="component_description" type="QString" value=""/>
-        <Option name="component_height" type="double" value="60"/>
-        <Option name="component_pos_x" type="double" value="1359"/>
-        <Option name="component_pos_y" type="double" value="187"/>
-        <Option name="component_width" type="double" value="100"/>
-        <Option name="outputs_collapsed" type="bool" value="true"/>
-        <Option name="parameters_collapsed" type="bool" value="true"/>
-      </Option>
-      <Option name="component_description" type="QString" value="Explodir campo HStore"/>
-      <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="437"/>
-      <Option name="component_pos_y" type="double" value="396"/>
-      <Option name="component_width" type="double" value="200"/>
-      <Option name="dependencies"/>
-      <Option name="id" type="QString" value="native:explodehstorefield_1"/>
-      <Option name="outputs" type="Map">
-        <Option name="Nome_da_cidade_Modelo_01" type="Map">
-          <Option name="child_id" type="QString" value="native:explodehstorefield_1"/>
-          <Option name="color" type="QString" value=""/>
-          <Option name="comment" type="Map">
-            <Option name="color" type="QString" value=""/>
-            <Option name="component_description" type="QString" value=""/>
-            <Option name="component_height" type="double" value="60"/>
-            <Option name="component_pos_x" type="double" value="0"/>
-            <Option name="component_pos_y" type="double" value="0"/>
-            <Option name="component_width" type="double" value="100"/>
-            <Option name="outputs_collapsed" type="bool" value="true"/>
-            <Option name="parameters_collapsed" type="bool" value="true"/>
-          </Option>
-          <Option name="component_description" type="QString" value="Nome_da_cidade_Modelo_01"/>
-          <Option name="component_height" type="double" value="30"/>
-          <Option name="component_pos_x" type="double" value="698"/>
-          <Option name="component_pos_y" type="double" value="462"/>
-          <Option name="component_width" type="double" value="243.99999999999997"/>
-          <Option name="default_value" type="invalid"/>
-          <Option name="mandatory" type="bool" value="false"/>
-          <Option name="name" type="QString" value="Nome_da_cidade_Modelo_01"/>
-          <Option name="output_name" type="QString" value="OUTPUT"/>
-          <Option name="outputs_collapsed" type="bool" value="true"/>
-          <Option name="parameters_collapsed" type="bool" value="true"/>
-        </Option>
-      </Option>
-      <Option name="outputs_collapsed" type="bool" value="true"/>
-      <Option name="parameters_collapsed" type="bool" value="true"/>
-      <Option name="params" type="Map">
-        <Option name="EXPECTED_FIELDS" type="List">
-          <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="service,bridge,footway"/>
-          </Option>
-        </Option>
-        <Option name="FIELD" type="List">
-          <Option type="Map">
-            <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="other_tags"/>
-          </Option>
-        </Option>
-        <Option name="INPUT" type="List">
-          <Option type="Map">
-            <Option name="child_id" type="QString" value="native:reprojectlayer_1"/>
-            <Option name="output_name" type="QString" value="OUTPUT"/>
-            <Option name="source" type="int" value="1"/>
-          </Option>
-        </Option>
-      </Option>
-    </Option>
     <Option name="native:filedownloader_1" type="Map">
       <Option name="active" type="bool" value="true"/>
       <Option name="alg_config"/>
@@ -91,8 +18,8 @@
       </Option>
       <Option name="component_description" type="QString" value="Baixar OSM"/>
       <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="442.63038548752814"/>
-      <Option name="component_pos_y" type="double" value="294.4822373393802"/>
+      <Option name="component_pos_x" type="double" value="834.6303854875282"/>
+      <Option name="component_pos_y" type="double" value="324.4822373393802"/>
       <Option name="component_width" type="double" value="200"/>
       <Option name="dependencies"/>
       <Option name="id" type="QString" value="native:filedownloader_1"/>
@@ -103,7 +30,7 @@
         <Option name="DATA" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value=""/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
         <Option name="METHOD" type="List">
@@ -130,23 +57,55 @@
         <Option name="color" type="QString" value=""/>
         <Option name="component_description" type="QString" value="Escolher o sistema de coordenadas mais adequado para a cidade de estudo. O sistema deve ser projetado (como por exemplo o UTM), e não geográfico (como por exemplo aqueles baseados em latitude e longitude.)"/>
         <Option name="component_height" type="double" value="89.33333333333331"/>
-        <Option name="component_pos_x" type="double" value="199.88934240362818"/>
-        <Option name="component_pos_y" type="double" value="488.8773242630387"/>
+        <Option name="component_pos_x" type="double" value="591.8893424036282"/>
+        <Option name="component_pos_y" type="double" value="518.8773242630386"/>
         <Option name="component_width" type="double" value="200"/>
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
       <Option name="component_description" type="QString" value="Reprojetar camada"/>
       <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="199.889342403628"/>
-      <Option name="component_pos_y" type="double" value="394.87732426303864"/>
+      <Option name="component_pos_x" type="double" value="591.889342403628"/>
+      <Option name="component_pos_y" type="double" value="424.87732426303864"/>
       <Option name="component_width" type="double" value="200"/>
       <Option name="dependencies"/>
       <Option name="id" type="QString" value="native:reprojectlayer_1"/>
-      <Option name="outputs"/>
+      <Option name="outputs" type="Map">
+        <Option name="Nome_da_Cidade_Modelo_01" type="Map">
+          <Option name="child_id" type="QString" value="native:reprojectlayer_1"/>
+          <Option name="color" type="QString" value=""/>
+          <Option name="comment" type="Map">
+            <Option name="color" type="QString" value=""/>
+            <Option name="component_description" type="QString" value=""/>
+            <Option name="component_height" type="double" value="60"/>
+            <Option name="component_pos_x" type="double" value="0"/>
+            <Option name="component_pos_y" type="double" value="0"/>
+            <Option name="component_width" type="double" value="100"/>
+            <Option name="outputs_collapsed" type="bool" value="true"/>
+            <Option name="parameters_collapsed" type="bool" value="true"/>
+          </Option>
+          <Option name="component_description" type="QString" value="Nome_da_Cidade_Modelo_01"/>
+          <Option name="component_height" type="double" value="30"/>
+          <Option name="component_pos_x" type="double" value="862.889342403628"/>
+          <Option name="component_pos_y" type="double" value="470.87732426303864"/>
+          <Option name="component_width" type="double" value="200"/>
+          <Option name="default_value" type="invalid"/>
+          <Option name="mandatory" type="bool" value="false"/>
+          <Option name="name" type="QString" value="Nome_da_Cidade_Modelo_01"/>
+          <Option name="output_name" type="QString" value="OUTPUT"/>
+          <Option name="outputs_collapsed" type="bool" value="true"/>
+          <Option name="parameters_collapsed" type="bool" value="true"/>
+        </Option>
+      </Option>
       <Option name="outputs_collapsed" type="bool" value="true"/>
       <Option name="parameters_collapsed" type="bool" value="true"/>
       <Option name="params" type="Map">
+        <Option name="CONVERT_CURVED_GEOMETRIES" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="bool" value="false"/>
+          </Option>
+        </Option>
         <Option name="INPUT" type="List">
           <Option type="Map">
             <Option name="child_id" type="QString" value="quickosm:openosmfile_1"/>
@@ -189,16 +148,16 @@
         <Option name="color" type="QString" value=""/>
         <Option name="component_description" type="QString" value="Modificar a query (string de busca) para refletir a cidade desejada. O formato &quot;Nome da cidade, sigla do estado&quot; (sem as aspas) costuma funcionar bem."/>
         <Option name="component_height" type="double" value="68"/>
-        <Option name="component_pos_x" type="double" value="195.10551776266124"/>
-        <Option name="component_pos_y" type="double" value="203.46371882086186"/>
+        <Option name="component_pos_x" type="double" value="587.1055177626613"/>
+        <Option name="component_pos_y" type="double" value="233.46371882086186"/>
         <Option name="component_width" type="double" value="200"/>
         <Option name="outputs_collapsed" type="bool" value="true"/>
         <Option name="parameters_collapsed" type="bool" value="true"/>
       </Option>
       <Option name="component_description" type="QString" value="Constroi Query OSM"/>
       <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="197.43885109599452"/>
-      <Option name="component_pos_y" type="double" value="295.46371882086186"/>
+      <Option name="component_pos_x" type="double" value="589.4388510959946"/>
+      <Option name="component_pos_y" type="double" value="325.46371882086186"/>
       <Option name="component_width" type="double" value="200"/>
       <Option name="dependencies"/>
       <Option name="id" type="QString" value="quickosm:buildqueryinsidearea_1"/>
@@ -209,7 +168,7 @@
         <Option name="AREA" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value="Centro, Florianópolis, SC"/>
+            <Option name="static_value" type="QString" value="Araquari SC"/>
           </Option>
         </Option>
         <Option name="KEY" type="List">
@@ -230,10 +189,16 @@
             <Option name="static_value" type="int" value="25"/>
           </Option>
         </Option>
+        <Option name="TYPE_MULTI_REQUEST" type="List">
+          <Option type="Map">
+            <Option name="source" type="int" value="2"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
         <Option name="VALUE" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value=""/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
       </Option>
@@ -255,8 +220,8 @@
       </Option>
       <Option name="component_description" type="QString" value="Acessa sublayers do OSM"/>
       <Option name="component_height" type="double" value="30"/>
-      <Option name="component_pos_x" type="double" value="686.9717309145892"/>
-      <Option name="component_pos_y" type="double" value="292.55631141345447"/>
+      <Option name="component_pos_x" type="double" value="1078.9717309145892"/>
+      <Option name="component_pos_y" type="double" value="322.55631141345447"/>
       <Option name="component_width" type="double" value="200"/>
       <Option name="dependencies"/>
       <Option name="id" type="QString" value="quickosm:openosmfile_1"/>
@@ -274,17 +239,17 @@
         <Option name="OSM_CONF" type="List">
           <Option type="Map">
             <Option name="source" type="int" value="2"/>
-            <Option name="static_value" type="QString" value=""/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
   <Option name="designerParameterValues" type="Map">
-    <Option name="native:reprojectlayer_1:Centro_Fpolis_OSM_raw_31982" type="QgsProcessingOutputLayerDefinition">
+    <Option name="native:explodehstorefield_1:Nome_da_Cidade_Modelo_01" type="QgsProcessingOutputLayerDefinition">
       <Option type="Map">
         <Option name="create_options" type="Map">
-          <Option name="fileEncoding" type="QString" value="System"/>
+          <Option name="fileEncoding" type="QString" value="windows-1252"/>
         </Option>
         <Option name="sink" type="Map">
           <Option name="active" type="bool" value="true"/>
@@ -300,23 +265,25 @@
   <Option name="modelVariables"/>
   <Option name="model_group" type="QString" value="OSM"/>
   <Option name="model_name" type="QString" value="OSM_01_Baixa_vias_OSM"/>
+  <Option name="outputGroup" type="QString" value=""/>
+  <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
-    <Option name="native:explodehstorefield_1:Nome_da_cidade_Modelo_01" type="Map">
+    <Option name="native:reprojectlayer_1:Nome_da_Cidade_Modelo_01" type="Map">
       <Option name="create_by_default" type="bool" value="true"/>
       <Option name="data_type" type="int" value="-1"/>
       <Option name="default" type="invalid"/>
       <Option name="defaultGui" type="invalid"/>
-      <Option name="description" type="QString" value="Nome_da_cidade_Modelo_01"/>
+      <Option name="description" type="QString" value="Nome_da_Cidade_Modelo_01"/>
       <Option name="flags" type="int" value="0"/>
       <Option name="help" type="QString" value=""/>
       <Option name="metadata" type="Map">
-        <Option name="_modelChildId" type="QString" value="native:explodehstorefield_1"/>
-        <Option name="_modelChildOutputName" type="QString" value="Nome_da_cidade_Modelo_01"/>
+        <Option name="_modelChildId" type="QString" value="native:reprojectlayer_1"/>
+        <Option name="_modelChildOutputName" type="QString" value="Nome_da_Cidade_Modelo_01"/>
         <Option name="_modelChildProvider" type="QString" value="native"/>
       </Option>
-      <Option name="name" type="QString" value="native:explodehstorefield_1:Nome_da_cidade_Modelo_01"/>
+      <Option name="name" type="QString" value="native:reprojectlayer_1:Nome_da_Cidade_Modelo_01"/>
       <Option name="parameter_type" type="QString" value="sink"/>
-      <Option name="supports_append" type="bool" value="false"/>
+      <Option name="supports_append" type="bool" value="true"/>
       <Option name="supports_non_file_outputs" type="bool" value="true"/>
     </Option>
   </Option>
